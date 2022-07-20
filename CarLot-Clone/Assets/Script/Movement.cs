@@ -15,7 +15,7 @@ public class Movement : MonoBehaviour
     {
 
         agent = GetComponent<NavMeshAgent>();
-        Debug.Log("orspu oldu kod" + playerData);
+    
 
         RandomCarSelect();
 
