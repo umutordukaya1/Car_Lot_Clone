@@ -10,6 +10,7 @@ public class GameManeger : PlayerData
     [SerializeField] private Transform Spawn;
     [SerializeField] private Transform EnterCount;
     [SerializeField] private Text carMoney;
+    private bool parkmoneyControl=false;
     private NavMeshAgent _agent;
     GameObject Ins_Car;
     int Money = 0;
@@ -19,7 +20,7 @@ public class GameManeger : PlayerData
     {
         CreateCar();
 
-       
+
     }
 
     void Update()
@@ -40,24 +41,21 @@ public class GameManeger : PlayerData
                 {
                     _agent.destination = hit.point;
                     _agent.transform.parent = null;
-
                 }
                 if (hit.transform.tag == "MoneyPoint")
                 {
-                    oldindex = activeindex;
-                    activeindex++;
-                    PlayerPrefs.SetInt("ParkIndex", activeindex);
-
+                    ParkBuy();
                 }
+               
             }
-
+            
         }
-        ParkSelect();
+        ParkControl();  
         Money = PlayerPrefs.GetInt("Money");
         carMoney.text = Money.ToString();
 
     }
-
+   
     void CreateCar()
     {
         for (int i = 0; i < EnterCount.childCount; i++)
@@ -82,32 +80,39 @@ public class GameManeger : PlayerData
         yield return new WaitForSeconds(3f);
         CreateCar();
     }
-    void ParkSelect()
+    void ParkBuy()
+    {
+        if (Money >= data[activeindex].parkCurrency)
+        {
+            activeindex++;
+            PlayerPrefs.SetInt("ParkIndex", activeindex);
+            parkmoneyControl = true;
+        }
+    }
+    void ParkControl()
     {
         activeindex = PlayerPrefs.GetInt("ParkIndex");
-        // if (Money >= PlayerPrefs.GetInt("Money"))
-
         for (int i = 0; i < data.Length; i++)
         {
-            if (i <= activeindex)
+            if (i <= activeindex )
             {
                 data[i].parks.SetActive(true);
-                parkmoneyList[activeindex].GetComponent<TextMesh>().text = data[activeindex].parkCurrency.ToString();
-
             }
             if (activeindex == i)
             {
+                parkmoneyList[activeindex].GetComponent<TextMesh>().text = data[activeindex].parkCurrency.ToString();
                 parkmoneyList[activeindex].SetActive(true);
-
             }
             else
             {
                 parkmoneyList[i].SetActive(false);
             }
         }
-
-
-
+        if (parkmoneyControl)
+        {
+            DeductCurrency(data[activeindex-1].parkCurrency);
+            parkmoneyControl=false;
+        }
     }
 
 
