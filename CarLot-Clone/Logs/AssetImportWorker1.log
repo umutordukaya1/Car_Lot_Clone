@@ -1,23 +1,23 @@
 Using pre-set license
-Built from '2021.3/staging' branch; Version is '2021.3.5f1 (40eb3a945986) revision 4254522'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'tr' Physical Memory: 16145 MB
+Built from '2021.3/staging' branch; Version is '2021.3.14f1 (eee1884e7226) revision 15655304'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'tr' Physical Memory: 16175 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/happy/CarLot-Clone
+C:/Users/umuto/Documents/GitHub/Car_Lot_Clone/Car_Lot_Clone/CarLot-Clone
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54983
-Successfully changed project path to: C:/Users/happy/CarLot-Clone
-C:/Users/happy/CarLot-Clone
+54913
+Successfully changed project path to: C:/Users/umuto/Documents/GitHub/Car_Lot_Clone/Car_Lot_Clone/CarLot-Clone
+C:/Users/umuto/Documents/GitHub/Car_Lot_Clone/Car_Lot_Clone/CarLot-Clone
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,113 +47,116 @@ C:/Users/happy/CarLot-Clone
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 77.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 61.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.3.5f1 (40eb3a945986)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/happy/CarLot-Clone/Assets
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/umuto/Documents/GitHub/Car_Lot_Clone/Car_Lot_Clone/CarLot-Clone/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Renderer: NVIDIA GeForce RTX 3050 (ID=0x2507)
     Vendor:   NVIDIA
-    VRAM:     3962 MB
-    Driver:   31.0.15.1640
+    VRAM:     8056 MB
+    Driver:   31.0.15.3623
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56548
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005177 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.009953 seconds.
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 81.97 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 60.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.656 seconds
+- Completed reload, in  0.559 seconds
 Domain Reload Profiling:
-	ReloadAssembly (657ms)
+	ReloadAssembly (560ms)
 		BeginReloadAssembly (64ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (490ms)
+		EndReloadAssembly (398ms)
 			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (107ms)
+			SetupTypeCache (84ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (296ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (245ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (72ms)
+				InitializePlatformSupportModulesInManaged (59ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (82ms)
+				RefreshPlugins (61ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (96ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
+				ProcessInitializeOnLoadAttributes (87ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005864 seconds.
+Registered in 0.006084 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\happy\CarLot-Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\happy\CarLot-Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\umuto\Documents\GitHub\Car_Lot_Clone\Car_Lot_Clone\CarLot-Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\umuto\Documents\GitHub\Car_Lot_Clone\Car_Lot_Clone\CarLot-Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.131 seconds
+- Completed reload, in  1.002 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1131ms)
-		BeginReloadAssembly (215ms)
+	ReloadAssembly (1002ms)
+		BeginReloadAssembly (212ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (132ms)
-		EndReloadAssembly (796ms)
-			LoadAssemblies (74ms)
+			CreateAndSetChildDomain (127ms)
+		EndReloadAssembly (693ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (265ms)
+			SetupTypeCache (205ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (357ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (334ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (216ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (201ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3371 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (111.1 KB). Loaded Objects now: 3830.
-Memory consumption went from 116.2 MB to 116.1 MB.
-Total: 3.635400 ms (FindLiveObjects: 0.301800 ms CreateObjectMapping: 0.269100 ms MarkObjects: 2.849500 ms  DeleteObjects: 0.214200 ms)
+Unloading 3354 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (56.1 KB). Loaded Objects now: 3815.
+Memory consumption went from 115.3 MB to 115.3 MB.
+Total: 2.835500 ms (FindLiveObjects: 0.224300 ms CreateObjectMapping: 0.182700 ms MarkObjects: 2.358500 ms  DeleteObjects: 0.068700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,43 +170,100 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 22502.630117 seconds.
-  path: Assets/Script/Cars.prefab
-  artifactKey: Guid(86bc2b8c029bb01479074bb24a9e46c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Cars.prefab using Guid(86bc2b8c029bb01479074bb24a9e46c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '390ec18207c708e257463e60dcfecbc8') in 0.062390 seconds 
+  Time since last request: 53443.356543 seconds.
+  path: Assets/BackGRound.mat
+  artifactKey: Guid(92bf02f7e47a72b4b8602d9ae9684c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackGRound.mat using Guid(92bf02f7e47a72b4b8602d9ae9684c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a87a6c288bdf2efa1fbfdb067564956a') in 0.263366 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.022823 seconds.
+  Time since last request: 21.278720 seconds.
   path: Assets/generic-passenger-car-pack/Materials/CompactBlue.mat
-  artifactKey: Guid(c38c463b41fa6b94aabb9b2889d7c623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/generic-passenger-car-pack/Materials/CompactBlue.mat using Guid(c38c463b41fa6b94aabb9b2889d7c623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cbf0d1b047fd77306e894ec911a6ef4') in 0.118318 seconds 
+  artifactKey: Guid(9497e863e30469148bf012cb50321174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/generic-passenger-car-pack/Materials/CompactBlue.mat using Guid(9497e863e30469148bf012cb50321174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec80ec4aaa2424888dd53deab05d4fb1') in 0.016188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/generic-passenger-car-pack/Materials/MinivanRed.mat
+  artifactKey: Guid(b2233c50978aa544db1029d6ea7e2b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/generic-passenger-car-pack/Materials/MinivanRed.mat using Guid(b2233c50978aa544db1029d6ea7e2b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb041253cd904861ba0dc35f57611301') in 0.051875 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000031 seconds.
-  path: Assets/generic-passenger-car-pack/Materials/HatchbackYellow.mat
-  artifactKey: Guid(f13c926262c5dbe4184c23d62b449db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/generic-passenger-car-pack/Materials/HatchbackYellow.mat using Guid(f13c926262c5dbe4184c23d62b449db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ba14ed5c03f75d0ff9ff0db371c6c0') in 0.022069 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/generic-passenger-car-pack/Materials/WagonBlue.mat
-  artifactKey: Guid(05bffef583fd53d47a9cf2b1837d5d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/generic-passenger-car-pack/Materials/WagonBlue.mat using Guid(05bffef583fd53d47a9cf2b1837d5d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94880512fa03c91ae777a7ec9a8714f4') in 0.022738 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/generic-passenger-car-pack/Materials/Sedan_Metallic.mat
-  artifactKey: Guid(618d83890930f854da4d38a97533e194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/generic-passenger-car-pack/Materials/Sedan_Metallic.mat using Guid(618d83890930f854da4d38a97533e194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c39f423245cf43ab65b0a7f1219e489') in 0.039259 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
   path: Assets/generic-passenger-car-pack/Materials/SedanYellow.mat
-  artifactKey: Guid(6a003529fcc23ff4494e778d92580f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/generic-passenger-car-pack/Materials/SedanYellow.mat using Guid(6a003529fcc23ff4494e778d92580f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bbe9116387dbcc93e59cbb6a2e79a8f') in 0.020187 seconds 
+  artifactKey: Guid(059cbd4dd6af0984ba1d678d5bfa9018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/generic-passenger-car-pack/Materials/SedanYellow.mat using Guid(059cbd4dd6af0984ba1d678d5bfa9018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aebf88937923bf4bdb075dbc38df3b12') in 0.067269 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000038 seconds.
+  Time since last request: 0.000018 seconds.
   path: Assets/generic-passenger-car-pack/Materials/CoupeBlue.mat
-  artifactKey: Guid(8b4f1ea0510afb44bbe4af68dc51df79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/generic-passenger-car-pack/Materials/CoupeBlue.mat using Guid(8b4f1ea0510afb44bbe4af68dc51df79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4624f061d16692c93704ce81fed1d7') in 0.022439 seconds 
+  artifactKey: Guid(7d436c9da2d4ef54f8c2e39840fda66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/generic-passenger-car-pack/Materials/CoupeBlue.mat using Guid(7d436c9da2d4ef54f8c2e39840fda66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7737c454187b5c27556106ac16ab5a3f') in 0.055795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/generic-passenger-car-pack/Materials/SUVBlack.mat
+  artifactKey: Guid(7ab6d809310d5e24b8be630d1150f6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/generic-passenger-car-pack/Materials/SUVBlack.mat using Guid(7ab6d809310d5e24b8be630d1150f6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3180c72b8be9fffaf3f4d2299175094') in 0.057628 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005926 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\umuto\Documents\GitHub\Car_Lot_Clone\Car_Lot_Clone\CarLot-Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\umuto\Documents\GitHub\Car_Lot_Clone\Car_Lot_Clone\CarLot-Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.017 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1018ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (794ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (248ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (366ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (39ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3347 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (24.7 KB). Loaded Objects now: 3859.
+Memory consumption went from 119.7 MB to 119.6 MB.
+Total: 3.254200 ms (FindLiveObjects: 0.205400 ms CreateObjectMapping: 0.151600 ms MarkObjects: 2.870400 ms  DeleteObjects: 0.025500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
